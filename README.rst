@@ -47,3 +47,9 @@ Turn it into a pandas dataframe like so:
     df_lit = pd.DataFrame(clean_dat)
     for c in 'class_start class_end date_filed status_date'.split():
         df_lit[c] = pd.to_datetime(df_lit[c])
+
+
+License
+-----------------
+
+See the `LICENSE <LICENSE>`__ file for license rights and limitations (MIT).
